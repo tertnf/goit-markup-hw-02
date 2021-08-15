@@ -1,4 +1,9 @@
-body{
-    background-color:#fff;
-    color: #2a2a2a;
+body {
+  background-color: rgb(224, 121, 24);
+  color: #2a2a2a;
+}
+/*------------Portfolio--------------*/
+/*----------HERO Section------------*/
+.hero-title {
+  visibility: hidden;
 }
