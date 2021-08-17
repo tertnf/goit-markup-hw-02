@@ -20,13 +20,16 @@ body {
 }
 /*----------Index html-----------*/
 .nav-link:hover,
-.site-contacts a:hover {
+.site-contacts a:hover,
+.nav-link:focus,
+.site-contacts a:focus {
   color: var(--active-nav-color);
 }
 .logo {
+  /*font-family: Raleway;*/
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--main-nav-color);
 }
@@ -36,11 +39,9 @@ body {
 .nav-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-nav-color);
-  text-decoration: none;
-  list-style: none;
 }
 a {
   text-decoration: none;
@@ -48,11 +49,10 @@ a {
 li {
   list-style-type: none;
 }
-
 .contacts-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
 }
@@ -66,16 +66,22 @@ li {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-title-color);
 }
 .hero-button {
+  color: var(--secondary-title-color);
+  background-color: #f5f4fa;
+}
+.hero-button:focus,
+.hero-button:hover {
   color: var(--main-text-color);
   background-color: var(--main-color);
 }
+
 button {
   border: none;
   border-radius: 4px;
@@ -84,13 +90,11 @@ button {
 .key-text-section {
   background-color: #e5e5e5;
 }
-.team-section {
-}
 .works-title,
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 16;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-title-color);
@@ -98,28 +102,28 @@ button {
 .title-hidden > .features {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-title-color);
 }
 .features-text {
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
 .team-member {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 18;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-title-color);
 }
 .team-profession {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
@@ -129,10 +133,23 @@ button {
 }
 .adr > p {
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 .page-footer {
   background-color: #2f303a;
+}
+.projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.19;
+  letter-spacing: 0.06em;
+  color: var(--secondary-title-color);
+}
+.projects-type {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
